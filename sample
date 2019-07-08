@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Sample page</title>
+        <style></style>
+    </head>
+    <body>
+        <label>Username:</label>
+        <input type="text" placeholder="Enter Username"/>
+        <br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter Password"/>
+        <br><br>
+        <input type="button" value="Login"/>
+        <br><br>
+        <input type="radio" value="radiobutton"/>Radio button
+        <br><br><br>
+        <input type="checkbox" value="Checkthisbox"/>checkbox 1
+        <br>
+        <input type="checkbox" value="Checkthisbox"/>checkbox 2
+        <br>
+        <input type="checkbox" value="Checkthisbox"/>checkbox 3
+        <br><br>&nbsp;&nbsp;&nbsp;
+        <a href="www.google.com" title="click">Google webpage</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="file"/>
+        <br><br>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Serial no.</th>
+                    <th>Language</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Python</td>
+                    <td>
+                        <input type="checkbox"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Java</td>
+                    <td>
+                        <input type="checkbox"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <select>
+            <option value="00">Select country</option>
+            <option value="01">India</option>
+            <option value="02">United states</option>
+            <option value="03">United kingdom</option>
+            <option value="04">Russia</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <select multiple="True">
+            <option value="00">Multi select</option>
+            <option value="01">India</option>
+            <option value="02">United states</option>
+            <option value="03">United kingdom</option>
+            <option value="04">Russia</option>
+        </select>
+    </body>
+</html>
