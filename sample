@@ -50,7 +50,7 @@
             </tbody>
         </table>
         <br><br>
-        <select>
+        <select id="single">
             <option value="00">Select country</option>
             <option value="01">India</option>
             <option value="02">United states</option>
